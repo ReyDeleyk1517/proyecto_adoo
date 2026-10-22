@@ -1,0 +1,48 @@
+img {
+  margin: 0 auto;
+  width: 100%;
+}
+#image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 670px) {
+  img {
+    width: 700px;
+  }
+}
+
+.th-container {
+  width: 160px;
+}
+
+.button {
+  background-color: #212529;
+  color: #9a9c9e;
+  padding: 3px 8px;
+  width: 100%;
+}
+
+.button:hover {
+  color: white;
+}
+
+.button-index {
+  display: block;
+  border-radius: 20px;
+  margin: 30px auto;
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 50%;
+}
+
+@media only screen and (min-width: 700px) {
+  .button-index {
+    width: 80%;
+  }
+}
